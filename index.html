@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABlog - Abhinav Bhatt's Blog</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icon1.jpg"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="light-theme">
+    <!--
+    - #HEADER
+  -->
+
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="#">
+            <img
+              src="./assets/images/icon1.jpg"
+              alt="ABlog's logo"
+              width="150"
+              class="logo-light"
+            />
+            <style>
+              img {
+                border-radius: 20px;
+              }
+            </style>
+            <img
+              src="./assets/images/icon1.jpg"
+              alt="ABlog's logo"
+              width="150"
+              class="logo-dark"
+            />
+          </a>
+
+          <div class="btn-group">
+            <button class="theme-btn theme-btn-mobile light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+
+            <button class="nav-menu-btn">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="flex-wrapper">
+            <ul class="desktop-nav">
+              <li>
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/abhinav-bhatt-a65770145/"
+                  target="blank"
+                  class="nav-link"
+                  >About Me</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/abhinav-bhatt-a65770145/"
+                  target="blank"
+                  class="nav-link"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+
+            <button class="theme-btn theme-btn-desktop light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+          </div>
+
+          <div class="mobile-nav">
+            <button class="nav-close-btn">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="wrapper">
+              <p class="h3 nav-title">Main Menu</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href="https://www.linkedin.com/in/abhinav-bhatt-a65770145/"
+                    target="blank"
+                    class="nav-link"
+                    >About Me</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href="https://www.linkedin.com/in/abhinav-bhatt-a65770145/"
+                    target="blank"
+                    class="nav-link"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="h3 nav-title">Topics</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a
+                    href="https://www.youtube.com/"
+                    class="nav-link"
+                    target="blank"
+                    >Youtube</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Boxing</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Fitness</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--
+      - #Main SECTION
+    -->
+
+      <div class="hero">
+        <div class="container">
+          <div class="left">
+            <h1 class="h1">
+              Hey! I'm <b>Abhinav&nbsp;Bhatt</b>. <br />Welcome to my Blog
+            </h1>
+
+            <p class="h3">
+              Likes to Talk about
+              <abbr >Youtube, Web Dev, Boxing</abbr>
+              and Fitness
+            </p>
+
+            <div class="btn-group">
+              <a
+                href="https://www.linkedin.com/in/abhinav-bhatt-a65770145/"
+                target="blank"
+                class="btn btn-primary"
+                >Contact Me</a
+              >
+              <a
+                href="https://www.linkedin.com/in/abhinav-bhatt-a65770145/"
+                target="blank"
+                class="btn btn-secondary"
+                >About Me</a
+              >
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="pattern-bg"></div>
+            <div class="img-box">
+              <img
+                src="./assets/images/pp2-removebg-preview.png"
+                alt="Abhinav Bhatt"
+                class="hero-img"
+              />
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+          <!--
+          - BLOG SECTION
+        -->
+
+          <div class="blog">
+            <h2 class="h2">Latest Blogs</h2>
+
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/ksi belts.webp "
+                    alt="Building microservices with Dropwizard, MongoDB & Docker"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Boxing</button>
+
+                  <h3>
+                    <a
+                    href="ABlog1.html"
+                    target="blank"
+                    class="h3">
+                      TWO FOR ONE: KSI wins TWO fights on same night after KOing
+                      pro-boxer.
+                    </a>
+                  </h3>
+
+                  <p class="blog-text">
+                    KSI made a victorious return to the ring at the O2 Arena
+                    with TWO knockout wins over Swarmz and Luis Pineda. The
+                    YouTube star kicked the night off with a second-round KO win
+                    over rapper Swarmz before beating Pineda in the main event
+                    via third-round stoppage. And in between both fights, KSI's
+                    brother Deji picked up his first win as a boxer, beating
+                    Fousey in the third round.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/pp1-removebg-preview.png"
+                        alt="Abhinav Bhatt"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Abhinav Bhatt</a>
+
+                      <p class="text-sm">
+                        <time datetime="2022-01-17">Aug 28, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="https://img.etimg.com/photo/msid-74747053,quality-100/for-miles-a-great-bodyweight-workout-would-include-squats-push-ups-walking-lunges-.jpg"
+                    alt="Workout"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Youtube</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >3 Day Split Workout – The Complete Guide (2022)</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    A 3 day split is a workout plan that you work out 3 times a
+                    week. The purpose of a 3 day split is to target different
+                    muscle groups in each session, and to work them out in an
+                    isolated way. It is designed to train different muscle
+                    groups every day so that you can rest and maximize strength
+                    gains while you’re working out. It can be a great balance
+                    between results and being time efficient. A 3 day workout
+                    split can be a great way to plan your workout week if you’re
+                    pressed for time or don’t want to be in the gym 5 times a
+                    week. The different variations of a 3 day workout split are
+                    arguably amongst the most used by gym athletes all around
+                    the world
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/pp1-removebg-preview.png"
+                        alt="Abhinav Bhatt"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Abhinav Bhatt</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-12-10">Sept 12, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT2M">2 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="https://i3.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/11/alexander-shatov-JlO3-oY5ZlQ-unsplash.jpg"
+                    alt="My Playlist"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Music</button>
+
+                  <h3>
+                    <a href="" class="h3">My Playlist</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    I'm happy to share my top picks when it comes to Music Hope
+                    you enjoy! PS: I will be updating the link 😁
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/pp1-removebg-preview.png"
+                        alt="Abhinav Bhatt"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Abhinav Bhatt</a>
+
+                      <p class="text-sm">
+                        <time datetime="2022-10-28">Oct 28, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/01/shutterstock_391535467.jpg"
+                    alt="The most beautiful Trek in Karnataka"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">YouTube</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >The Most Beautiful Trek in Karnataka</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    I went on a trek to one of the Most Beautiful Treks in
+                    Karnataka The Trek leads to a beautiful water falls and the
+                    route gives a vibe similar to that of Jumanji. This trek
+                    will be the time of your lives.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/pp1-removebg-preview.png"
+                        alt="Abhinav Bhatt"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Abhinav Bhatt</a>
+
+                      <p class="text-sm">
+                        <time datetime="2022-10-20">Oct 25, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">5 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="https://wallpaperaccess.com/full/113299.jpg"
+                    alt="Basics of Boxing"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Boxing</button>
+
+                  <h3>
+                    <a href="" class="h3">The BEGINNER’S Guide to Boxing</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Are you new to boxing and don’t know where to start? I made
+                    this complete basic boxing guide for all beginner boxers,
+                    filled with explanations, pictures, videos, and links to
+                    more detailed guides.
+                  </p>
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/pp1-removebg-preview.png"
+                        alt="Abhinav Bhatt"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Abhinav Bhatt</a>
+
+                      <p class="text-sm">
+                        <time datetime="2022-07-15">July 07, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="https://img.freepik.com/free-vector/skull-gaming-with-joy-stick-emblem-modern-style_32991-492.jpg?w=2000"
+                    alt="The best budget Gaming Setup"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Gaming</button>
+
+                  <h3>
+                    <a href="" class="h3">The Best Budget Gaming Setup</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Are you looking for an inexpensive gaming computer that can
+                    easily handle your favorite games? Below, you’ll find six
+                    different budget gaming PCs that will serve you well into
+                    2022 (and beyond).
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/pp1-removebg-preview.png"
+                        alt="Abhinav Bhatt"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Abhinav Bhatt</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-10-25">Aug 25, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">6 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn load-more">Load More</button>
+          </div>
+
+          <!--
+          - SIDE
+        -->
+
+          <div class="aside">
+            <div class="topics">
+              <h2 class="h2">Topics</h2>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+
+                <p>Youtube</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="accessibility-outline"></ion-icon>
+                </div>
+
+                <p>Boxing</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <p>Health & Fitness</p>
+              </a>
+            </div>
+
+            <div class="tags">
+              <h2 class="h2">Tags</h2>
+
+              <div class="wrapper">
+                <button class="hashtag">#YouTube</button>
+                <button class="hashtag">#Fitness</button>
+                <button class="hashtag">#Boxing</button>
+                <button class="hashtag">#Gaming</button>
+                <button class="hashtag">#Travelling</button>
+                <button class="hashtag">#Vlogs</button>
+                <button class="hashtag">#WebDev</button>
+                <button class="hashtag">#Productivity</button>
+              </div>
+            </div>
+
+            <div class="contact">
+              <h2 class="h2">Let's Talk</h2>
+
+              <div class="wrapper">
+                <p>
+                  I'm always excited to connect with people and sharing our
+                  thoughts and Experiences.<br></br> Let us have a conversation.
+                </p>
+
+                <ul class="social-link">
+                  <li>
+                    <a href="https://discord.com/channels/719504015460794390/719504025896091659"
+                    target="blank"
+                    class="icon-box discord">
+                      <ion-icon name="logo-discord"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a 
+                    href="https://twitter.com/elonmusk"
+                    target="blank"
+                    class="icon-box twitter">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a 
+                    href="https://www.facebook.com/"
+                    target="blank"
+                    class="icon-box facebook">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="newsletter">
+              <h2 class="h2">Newsletter</h2>
+
+              <div class="wrapper">
+                <p>
+                  Subscribe to my newsletter to be among the first to keep up
+                  with the latest updates.
+                  <br></br>
+                  It's FREE
+                </p>
+
+                <form action="#">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+
+                  <button type="submit" class="btn btn-primary">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--
+    - FOOTER
+  -->
+
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <a href="#" class="footer-logo">
+            <img
+              src="./assets/images/icon1.jpg"
+              alt="ABlog's Logo"
+              width="150"
+              class="logo-light"
+            />
+            <img
+              src="./assets/images/icon1.jpg"
+              alt="ABlog's Logo"
+              width="150"
+              class="logo-dark"
+            />
+          </a>
+
+          <p class="footer-text">
+            Talk about Youtube, Boxing, Sports, Health & Fitness.
+          </p>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Quick Links</p>
+
+          <ul>
+            
+
+            <li>
+              <a
+              href="https://www.linkedin.com/in/abhinav-bhatt-a65770145/"
+              target="blank"
+              class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a 
+              href="https://www.linkedin.com/in/abhinav-bhatt-a65770145/"
+              target="blank"
+              class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Legal Stuff</p>
+
+          <ul>
+            <li>
+              <a href="#"class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Cookie Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms Of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="copyright">&copy; Copyright 2022 <a href="#">ABlog</a></p>
+    </footer>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
